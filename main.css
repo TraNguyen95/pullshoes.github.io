@@ -1,0 +1,227 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Cairo', sans-serif;
+}
+button{
+	border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.sticky{
+	 position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky .navbar-brand{
+	
+	color: #b11c1c!important;
+}
+.sticky .navbar-nav  li a {
+	color: #b11c1c!important;
+}
+#nav-bar{
+	position: sticky;
+	z-index: 10;
+	top: 0;
+	
+}
+.navbar{
+	/*background-image: linear-gradient(to right, gray , yellow);*/
+	padding: 0 !important;
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+.navbar-brand{
+	color: #fff !important;
+}
+.navbar-brand{
+	height: 40px;
+	padding-left: 20px;
+}
+.fa-bars{
+	color: #fff ;
+	font-size: 30px !important;
+}
+.navbar-toggler{
+	outline: none !important;
+}
+
+/*--------------banner section-----------------*/
+#banner{
+	/*background-image: linear-gradient(to right, gray , yellow);*/
+	color: #fff;
+	padding-top: 5%;
+}
+#banner{
+	text-align: center;
+}
+#banner .banner_text {
+    width: 100%;
+    float: left;
+    font-size: 30pt;
+    color: #db5660;
+    margin: 2% 0;
+}
+#banner .mens_text {
+    width: 100%;
+    float: left;
+    font-size: 39pt;
+    color: #fdfcfc;
+    line-height: 40px;
+    font-weight: bolder;
+    margin: 2% 0;
+}
+#banner .lorem_text {
+    width: 100%;
+    float: left;
+    font-size: 13pt;
+    color: #db5660;
+    margin-left: 0px;
+    margin: 2% 0;
+}
+#banner .buy_bt {
+    width: 20%;
+    height: 50px;
+    color: #ffffff;
+    background-color: #ff4e5b;
+    color: #ffffff;
+    font-size: 16pt;
+}
+#banner .more_bt {
+    width: 20%;
+    height: 50px;
+    color: #ffffff;
+    background-color: #ffffff;
+    color: #ff4e5b;
+    font-size: 16pt;
+    margin-left: 25px;
+}
+.promo-title{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+
+#service{
+	height: 1000px;
+	background: gray;
+}
+.carousel-item{
+	height: 300px;
+	
+	width: 100%;
+}
+
+.header-section {
+    width: 100%;
+    background-image: url(file:///Users/tranguyen/Downloads/pullo/images/banner.png);
+    height: auto;
+    padding-bottom: 66px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*------------colect-section--------*/
+
+
+.collection_section{
+	padding-top: 90px;
+}
+
+.collection_section .new_text {
+    width: 100%;
+    float: left;
+    font-size: 24pt;
+    color: #0c0116;
+}
+
+.consectetur_text {
+    width: 100%;
+    float: left;
+    font-size: 14pt;
+    color: #0c0116;
+    font-weight: 400;
+    margin-left: 0px;
+    padding-bottom: 30px;
+        margin: 20px 0;
+}
+
+.new_bt {
+    width: 18%;
+    float: left;
+    background-color: #000;
+    font-size: 14pt;
+    text-align: center;
+    color: #ffffff;
+    height: 50px;
+    margin-left: -60px;
+}
+
+button.new_bt:hover {
+    background: gray;
+}
+.about-img {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    height: auto;
+    margin-left: 64px;
+    box-shadow: 0px 0px 10px 0px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.star_icon {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+.star_icon li {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    list-style: none;
+}
+
+.about-img2 {
+    width: 100%;
+    float: left;
+    /*background-image: url(images/about-img2.png);*/
+    height: auto;
+    box-shadow: 0px 0px 10px 0px;
+    margin-left: -50px;
+    margin-top: 74px;
+    text-align: center;
+}
+
+.seemore_bt {
+    width: 32%;
+    height: 50px;
+    color: #ffffff;
+    background-color: #ff4e5b;
+    color: #ffffff;
+    font-size: 16pt;
+    margin-top: 35px;
+    margin-bottom: 90px;
+}
+
+.seemore_bt:hover{
+	background: gray;
+}
+
+
+
+
+
+
