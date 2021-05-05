@@ -1,70 +1,70 @@
 *{
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 body{
-	font-family: 'Cairo', sans-serif;
+    font-family: 'Cairo', sans-serif;
 }
 button{
-	border: 0;
+    border: 0;
     margin: 0;
     padding: 0;
     cursor: pointer;
 }
 .sticky{
-	 position: fixed;
+     position: fixed;
   top: 0;
   width: 100%;
 }
 .sticky .navbar-brand{
-	
-	color: #b11c1c!important;
+    
+    color: #b11c1c!important;
 }
 .sticky .navbar-nav  li a {
-	color: #b11c1c!important;
+    color: #b11c1c!important;
 }
 #nav-bar{
-	position: sticky;
-	z-index: 10;
-	top: 0;
-	
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    
 }
 .navbar{
-	/*background-image: linear-gradient(to right, gray , yellow);*/
-	padding: 0 !important;
+    /*background-image: linear-gradient(to right, gray , yellow);*/
+    padding: 0 !important;
 }
 .navbar-nav li{
-	padding: 0 10px;
+    padding: 0 10px;
 }
 .navbar-nav li a{
-	color: #fff !important;
-	font-weight: 600;
-	float: right;
-	text-align: left;
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
 }
 .navbar-brand{
-	color: #fff !important;
+    color: #fff !important;
 }
 .navbar-brand{
-	height: 40px;
-	padding-left: 20px;
+    height: 40px;
+    padding-left: 20px;
 }
 .fa-bars{
-	color: #fff ;
-	font-size: 30px !important;
+    color: #fff ;
+    font-size: 30px !important;
 }
 .navbar-toggler{
-	outline: none !important;
+    outline: none !important;
 }
 
 /*--------------banner section-----------------*/
 #banner{
-	/*background-image: linear-gradient(to right, gray , yellow);*/
-	color: #fff;
-	padding-top: 5%;
+    /*background-image: linear-gradient(to right, gray , yellow);*/
+    color: #fff;
+    padding-top: 5%;
 }
 #banner{
-	text-align: center;
+    text-align: center;
 }
 #banner .banner_text {
     width: 100%;
@@ -108,19 +108,19 @@ button{
     margin-left: 25px;
 }
 .promo-title{
-	font-size: 40px;
-	font-weight: 600;
-	margin-top: 100px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
 }
 
 #service{
-	height: 1000px;
-	background: gray;
+    height: 1000px;
+    background: gray;
 }
 .carousel-item{
-	height: 300px;
-	
-	width: 100%;
+    height: 300px;
+    
+    width: 100%;
 }
 
 .header-section {
@@ -136,7 +136,7 @@ button{
 
 
 .collection_section{
-	padding-top: 90px;
+    padding-top: 90px;
 }
 
 .collection_section .new_text {
@@ -148,7 +148,6 @@ button{
 
 .consectetur_text {
     width: 100%;
-    float: left;
     font-size: 14pt;
     color: #0c0116;
     font-weight: 400;
@@ -217,10 +216,175 @@ button.new_bt:hover {
 }
 
 .seemore_bt:hover{
-	background: gray;
+    background: gray;
+}
+
+.racing_shoes{
+    background-color: #eae7e7;
+    padding-top: 70px;
+    background-size: 100%;
+    padding-bottom: 70px;
+}
+
+.shoes-img3 {
+    width: 100%;
+    text-align: center;
+}
+
+.sale_text {
+    width: 100%;
+    float: left;
+    font-size: 70px;
+    color: #ed2540;
+    line-height: 75px;
+}
+.number_text {
+    width: 100%;
+    float: left;
+    font-size: 70px;
+    color: #ed2540;
+    line-height: 75px;
+}
+.seemore {
+    width: 50%;
+    height: 50px;
+    color: #ffffff;
+    background-color: #ff4e5b;
+    color: #ffffff;
+    font-size: 16pt;
+    margin-top: 35px;
+}
+.seemore:hover{
+    background: gray;
+}
+
+.section_footer {
+    width: 100%;
+    float: left;
+    background-color: #272222;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mail_section {
+    width: 100%;
+    float: left;
+}
+.footer-logo {
+    float: left;
+    font-size: 12pt;
+    color: #fdfefe;
+}
+
+.mail_section li {
+    float: left;
+    font-size: 12pt;
+    color: #fdfefe;
+    padding-right: 35px;
+}
+.footer_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+}
+.shop_text {
+    width: 100%;
+    float: left;
+    font-size: 28px;
+    color: #ebebeb;
+}
+.dummy_text {
+    width: 100%;
+    float: left;
+    font-size: 12pt;
+    color: #ffffff;
+    margin-left: 0px;
+    margin-top: 55px;
+    line-height: 25px;
+}
+.image-icon {
+    width: 100%;
+    float: left;
+    padding-top: 6px;
+}
+.pet_text {
+    font-size: 12pt;
+    color: #ffffff;
+    padding-left: 16px;
+    display: flex;
+    top: -26px;
+    position: relative;
+    padding-left: 20px;
+}
+.adderess_text {
+    width: 100%;
+    float: left;
+    font-size: 28px;
+    color: #ebebeb;
+}
+
+.copyright {
+    width: 100%;
+    float: left;
+    font-size: 12pt;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #ff4e5b;
+    font-family: Poppins;
+}
+
+.copyright a{ color: #ffffff; }
+.copyright a:hover{ color: #000; }
+
+.map_text {
+    padding-left: 15px;
+}
+
+.delivery_text{
+    width: 100%;
+    float: left;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.enter_email{
+    border: 1px solid #000;
+    color: #000000;
+    width: 100%;
+    height: 44px;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.subscribr_bt {
+    width: 80%;
+    float: right;
+    background-color: #ff4e5b;
+    font-size: 13pt;
+    height: 50px;
+    color: #ffffff;
 }
 
 
+.about_main {
+    width: 100%;
+    float: left;
+        padding-bottom: 30px;
+}
+
+.header_main {
+    width: 100%;
+    height: auto;
+    background: #0c0116;
+}
+
+ul, li, ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
 
 
 
